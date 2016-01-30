@@ -1,6 +1,10 @@
 {
-	"ui": true,
+	"client_addr": "0.0.0.0",
+	"data_dir": "/var/lib/consul/data",
+    "disable_remote_exec": true,
 	"dns_config": {
 		"allow_stale": false
-	}
+	},
+	"leave_on_terminate": true,
+	"ui": true
 }
