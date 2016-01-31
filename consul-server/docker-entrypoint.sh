@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 set -e
 
 # See https://www.consul.io/docs/agent/options.html for config file options
