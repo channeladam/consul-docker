@@ -3,7 +3,6 @@ set -e
 
 # See https://www.consul.io/docs/agent/options.html for config file options
 
-mkdir -p /var/lib/consul/config
 configFile="/var/lib/consul/config/100-default-server-config.generated.json"
 rm -f $configFile
 
